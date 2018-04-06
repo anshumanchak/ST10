@@ -34,7 +34,7 @@
 				else{
 					$.ajax({
 						type: "GET",
-						url: "http://localhost:8080/ST10/sachin.csv",
+						url: "./sachin.csv",
 						success: function (data) {
 							var st=Papa.parse(data);
 							st=st.data;
